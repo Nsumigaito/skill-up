@@ -160,6 +160,7 @@ header{
 
 .feature-strength{
 	width:320px;
+	height:auto;
 	margin-right:10px;
 	float:left;
 }
@@ -194,6 +195,9 @@ header{
 	width:1024px;
 	margin:0 auto;
 	padding:90px 0;
+}
+
+.profile-top h2,p{
 	text-align:center;
 }
 
@@ -213,19 +217,84 @@ header{
 .profile-right{
 	width:50%;
 	float:right;
-	text-align:left;
 }
 
 .profile-name,.profile-skills{
 	padding-bottom:5px;
 	font-size:20px;
+	text-align:left;
 }
 
 .name-text,.skills-text{
 	font-size:16px;
+	text-align:left;
 	color:#000000;
 }
 
 .name-text{
 	padding-bottom:20px;
+}
+
+	/* contact */
+
+.contact-container{
+	width:800px;
+	margin:0 auto;
+	padding:90px 0;
+}
+
+.contact-top h2, p{
+	text-align:center
+}
+
+.contact-left{
+	width:50%;
+	float:left;
+}
+
+.left-width{
+	width:130px;
+	margin:0 auto;
+}
+
+.contact-right{
+	width:50%;
+	float:right;
+}
+
+.right-width{
+	width:170px;
+	margin:0 auto;
+}
+
+.contact-mail,.contact-tel,.contact-sns{
+	font-size:20px;
+	padding-bottom:5px;
+}
+
+.contact-tel{
+	padding-top:20px;
+}
+
+.contact-logo{
+	margin-right:20px;
+	font-size:47px;
+}
+
+.contact-logo:last-child{
+	margin-right:0;
+}
+
+	/* footer */
+
+footer{
+	width:100%;
+	height:60px;
+	background-color:#ec715f;
+}
+
+.footer-text{
+	line-height:60px;
+	font-size:16px;
+	color:#fafafa;
 }
